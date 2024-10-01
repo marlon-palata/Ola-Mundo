@@ -8,7 +8,7 @@
         .container{
             display: flex;
             /* Utilizei o display flex para organizar meu container e o flex direction para dizer em que direção eu quero posicionar meus elementos. Por padrão ele vem row (linha), podemos mudar para column (coluna)*/
-            flex-direction: row;
+            flex-direction: column;
 
             /*O flex-wrap vai fazer com que os nosso elementos dentro do container possam diminuir para caber todos na mesma configuração (no caso na mesma linha) ou eu posso fazer com que, se atingir o limite da linha ele avance para a próxima linha, mantendo assim a configuração que foi pré-definida em seu width e height em sua class*/
             flex-wrap: wrap;
@@ -19,29 +19,30 @@
             
 
             /*
-            Já nesse modo deixamos o mesmo espaço não só ENTRE os elementos, mas também em relação as laterais, então TUDO fica com o mesmo espaço.            
-            justify-content: space-evenly
-            */
+            Já nesse modo deixamos o mesmo espaço não só ENTRE os elementos, mas também em relação as laterais, então TUDO fica com o mesmo espaço.       
+            justify-content: space-evenly;*/
+            
 
             /*
             Esse modo é semelhante ao space-evenly com a diferença que os espaços as laterais são METADE dos espaços entre os elementos
-            justify-content: space-around
-            */
+            justify-content: space-around;*/
+            
 
             /*
-            este é o alinhamento padrão, se não colocarmos nenhum justify-content ele ficará nessa posição de flex-start que é iniciar tudo para a esquerda EM CIMA (start = início, e quando eu falo início eu estou me referindo ao padrão que conhecemos de leitura de uma página, livro, etc. no topo à esquerda)*/
-            justify-content: flex-start;
+            este é o alinhamento padrão, se não colocarmos nenhum justify-content ele ficará nessa posição de flex-start que é iniciar tudo para a esquerda EM CIMA (start = início, e quando eu falo início eu estou me referindo ao padrão que conhecemos de leitura de uma página, livro, etc. no topo à esquerda)
+            justify-content: flex-start;*/
             
             /*
-            justify-content: flex-end;*/
+            justify-content: flex-end;
             /*Se fosse fim, em baixo ou seja flex-end
             justify-content: flex-end;
             */
 
-            /*Se fosse ao meio, no centro ou seja flex-center
+            /*Se fosse ao meio, no centro ou seja flex-center*/
             justify-content: flex-center;
-            */
             
+            background-color: blue;
+            height: 500px;
         }
         .elemento{
             width: 100px;
