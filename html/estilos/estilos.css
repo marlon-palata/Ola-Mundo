@@ -1,0 +1,32 @@
+a:hover {
+    color: red;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+button:active {
+    background-color: green;
+}
+
+/* Estilizando o botão com a classe */
+.meu-botao {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.meu-botao:hover {
+    background-color: yellow; /* Quando o mouse passa por cima */
+}
+
+/* Estilizando o campo de texto com o ID */
+#meu-input:focus {
+    border: 2px solid blue; /* Quando o campo é clicado */
+}
+
+/* Estilizando a lista */
+.lista li:nth-child(2) {
+    background-color: lightgrey; /* Segundo item da lista */
+}
