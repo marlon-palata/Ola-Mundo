@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY - FLEXBOX - justify-content</title>
+    <style>
+        .container{
+            /* Utilizei o display flex para organizar meu container*/
+            display: flex;
+            
+            /*indicar a direção x ou y em relação ao container*/
+            flex-direction: column;
+
+            /*A propriedade align-items serve para eu alinhar meus itens dentro do container (no caso elementos) em relação ao container em si, ou seja, ele vai validar */
+            align-items: center;
+            background-color: blue;
+            height: 300px;
+
+
+            
+        }
+        .elemento{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 1px solid black;
+        }
+        .divnormal{
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            border: 3rex solid black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+        <div class="elemento">
+            DIV
+        </div>
+    </div>
+    <div class="divnormal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero voluptate fugit obcaecati iste nulla quo placeat omnis veniam expedita aut beatae, quaerat commodi non voluptatem nisi libero? Pariatur, assumenda ab.</div>
+</body>
+</html>
