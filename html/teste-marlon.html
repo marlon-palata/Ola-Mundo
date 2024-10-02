@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTANDO TUDO QUE APRENDEMOS ATÉ AGORA</title>
+    <style>
+        body{
+            padding: 1em 1em;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            height: fit-content;
+            background-color: aqua;  
+        }
+        .item{
+            width: 100%;
+            height: fit-content;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+        .item > img{
+            width: 600px; /* Largura fixa */
+            max-width: 100%; /* Não excede a largura do contêiner */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+        .item > ol{
+            text-align: left;
+        }
+        table, th, td {
+        border: 2px solid black;
+        margin: auto;
+        }  
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="item">
+            <h1>Bem vindo ao meu site</h1>
+            <img src="exercícios.png" alt="exercicios">
+        </div>
+        <div class="item">
+            <h2>Você precisa se exercitar</h2>
+            <ol>
+                <li>Relaxe a musculatura trabalhada.</li>
+                <li>Mantenha-se estável e atento aos músculos que está alongando.</li>
+                <li>Realize os movimentos de maneira suave, sem balanceios.</li>
+                <li>Mantenha cada posição por cerca de 20 a 30 segundos1.</li>
+                <li>Um exemplo de alongamento é girar o tronco sentado em uma cadeira, segurando a posição por 20 segundos de cada lado</li>
+            </ol>
+        </div>
+        <div class="item">
+            <table>
+                <tr>
+                    <th>Exercícios:</th>
+                    <th>Horários:</th>
+                </tr>
+                <tr>
+                    <td>Ex1</td>
+                    <td>Hr1</td>
+                    
+                </tr>    
+                <tr>
+                    <td>Ex2</td>
+                    <td>Hr2</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
