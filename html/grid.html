@@ -85,6 +85,46 @@
 }
 
 
+.container {
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.item {
+  grid-area: main;
+}
+
+.container {
+  grid-template: 
+    "header header" 50px
+    "main sidebar" 1fr
+    "footer footer" 30px
+    / 1fr 200px;
+}
+
+.container {
+  grid: auto-flow / 100px 1fr;
+}
+
+
 </style>
 
 
